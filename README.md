@@ -1,3 +1,19 @@
+# 前言
+
+#### 00基础
+- 抽象
+- 封装
+- 多态
+- 继承
+
+#### 00原则
+- 封装变化
+- 多用组合，少用继承
+- 针对接口编程，不要针对实现编程
+
+#### 00 模式
+- 策略模式（Strategy Pattern）
+
 # DesignPatterns
 
 ## 单例模式
@@ -28,3 +44,6 @@ Singleton，单例设计模式，即某个类在整个系统中只能有一个�
 - 线程安全（SafeSingleton），使用 DCL + synchronized + volatile
 - 静态内部类（StaticInnerClassSingleton）
 
+## 策略模式（Strategy Pattern）
+
+策略模式定义了算法族，分别封装起来，让他们之间可以相互替换，此模式让算法的变化独立与使用算法的客户。
