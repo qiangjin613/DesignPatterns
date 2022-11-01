@@ -63,7 +63,7 @@ class SafeSingleton2 {
     }
 
     // 使用 DCL 解决：在加锁之前，加锁之后都进行判断
-    public static synchronized SafeSingleton2 getInstance() {
+    public static SafeSingleton2 getInstance() {
         if (instance == null) {
             synchronized (SafeSingleton2.class) {
                 if (instance == null) {
@@ -98,7 +98,7 @@ public class SafeSingleton {
     }
 
     // 使用 DCL 解决：在加锁之前，加锁之后都进行判断
-    public static synchronized SafeSingleton getInstance() {
+    public static SafeSingleton getInstance() {
         if (instance == null) {
             synchronized (SafeSingleton.class) {
                 if (instance == null) {
