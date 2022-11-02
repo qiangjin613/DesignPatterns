@@ -1,7 +1,7 @@
 package com.designpatterns.practice.command;
 
 /**
- * 控制灯的类
+ * 控制灯的类 - 命令请求的接收者
  */
 public class Light {
 

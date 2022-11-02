@@ -3,6 +3,9 @@ package com.designpatterns.practice.command.impl;
 import com.designpatterns.practice.command.CeilingFan;
 import com.designpatterns.practice.command.Command;
 
+/**
+ * 打开风扇的命令
+ */
 public class CeilingFanHighCommand implements Command {
 
     private CeilingFan ceilingFan;
@@ -14,6 +17,7 @@ public class CeilingFanHighCommand implements Command {
     @Override
     public void execute() {
         ceilingFan.high();
+        System.out.println("风扇挡位：" + ceilingFan.getSpeed());
     }
 
     @Override

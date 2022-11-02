@@ -1,5 +1,8 @@
 package com.designpatterns.practice.command;
 
+/**
+ * 一个简单的遥控器 - 命令调用类
+ */
 public class SimpleRemoteControl {
     Command slot;
 

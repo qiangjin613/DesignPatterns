@@ -3,6 +3,9 @@ package com.designpatterns.practice.command.impl;
 import com.designpatterns.practice.command.Command;
 import com.designpatterns.practice.command.Light;
 
+/**
+ * 开灯的命令
+ */
 public class LightOnCommand implements Command {
 
     private final Light light;
